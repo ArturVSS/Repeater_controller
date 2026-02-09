@@ -1,0 +1,3 @@
+Platforma: ESP32-WROOM-32
+
+Logika: Gdy przemiennik jest wyłączony oczekuje sygnału carrier i 1750Hz przez jedną sekundę. Po tym czasie włącza PTT na 10 sekund i zaczyna mrugać dioda wskazująca odliczanie czasu. Po zaniknięciu carrier generuje roger-beep. Po kolejnych 3 sekundach generuje znamiennik przemiennika. Po odliczeniu 10 sekund od ostatniego sygnału carrier wyłącza PTT ale sekundę wcześniej generuje ton wyłączenia. Każde pojawienie się sygnału carrier resetuje licznik czasu do wyłączenia PTT. Znamiennik generowany jest minimalnie co 60 sekund. Gdy podczas generowania znamiennika pojawi się sygnał carrier dalsze generowanie znamiennika zostanie przerwane.
