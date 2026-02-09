@@ -1,0 +1,29 @@
+Początek projektu: 24.11.2025 – ver 1.0
+
+ver 1.1 z dnia 27.11.2025:
+
+przeniesiono wszystkie parametry do pamięci NVS pozwalający na edycję bez kompilacji
+dodano obsługę wifi i stronę WWW z możliwością zmiany parametrów i odczytu stanów
+zmienił się pin LED mrugający podczas pracy PTT i liczenia czasu do wyłączenia
+zmienił się pin do generowania dźwięku.
+dodano LED sygnalizujący podłączenie do wifi
+dodano schemat, odręczny na razie 😀
+ver 1.11 z dnia 06.01.2026:
+
+poprawiono aby układ ruszał również bez potrzeby łączenia z wifi, po utracie wifi pracuje dalej. jak układ ruszy bez wifi po pojawieniu się sieci łączy się automatycznie.
+dioda sygnalizująca połączenie z wifi mruga z częstotliwością 1Hz
+poprawiono generację tonu przed wyłączeniem przemiennika – można zmienić częstotliwość.
+ver 1.12 z dnia 08.01.2026:
+
+dołożono obsługę po i2c modułu przetwornika ADS1115 – pomiar czterech wartości analogowych
+podzielono stronę WWW na dwie osobne strony: stan przemiennik i ustawienia, dodano przyciski przełączające pomiędzy stronami.
+zmieniono tło na czarne, tekst na biało, wycentrowano tabele.
+na stronie www stanu przemiennika dołożono tabelę z pomiarami napięć z ADS1115
+umieszczono tabelę z pomiarem poziomu RSSI i przeliczeniem na poziom sygnału w skali S-metra
+ver 1.2 z dnia 20.01.2026
+
+dopisano obsługę DFplayera podłączony do portu TX-GPIO17 i RX-GPIO16 – znamiennik głosowy
+dopisano opcję włączenia i włączenia znamiennika głosowego w zakładce ustawienia – parametr ENABLE_VOICE
+dopisano minimalny czas pojawiania się znamiennika głosowego – parametr VOICE_INTERVAL
+na stronie STAN dopisano informację o wstanie włączenia znamiennika CW i znamiennika głosowego.
+obecnie DFPlayer odtwarza pierwszy plik MP3 znajdujący się na karcie SD
