@@ -8,6 +8,8 @@ zmienił się pin LED mrugający podczas pracy PTT i liczenia czasu do wyłącze
 zmienił się pin do generowania dźwięku.
 dodano LED sygnalizujący podłączenie do wifi
 dodano schemat, odręczny na razie 😀
+
+
 ver 1.11 z dnia 06.01.2026:
 
 poprawiono aby układ ruszał również bez potrzeby łączenia z wifi, po utracie wifi pracuje dalej. jak układ ruszy bez wifi po pojawieniu się sieci łączy się automatycznie.
@@ -20,6 +22,8 @@ podzielono stronę WWW na dwie osobne strony: stan przemiennik i ustawienia, dod
 zmieniono tło na czarne, tekst na biało, wycentrowano tabele.
 na stronie www stanu przemiennika dołożono tabelę z pomiarami napięć z ADS1115
 umieszczono tabelę z pomiarem poziomu RSSI i przeliczeniem na poziom sygnału w skali S-metra
+
+
 ver 1.2 z dnia 20.01.2026
 
 dopisano obsługę DFplayera podłączony do portu TX-GPIO17 i RX-GPIO16 – znamiennik głosowy
