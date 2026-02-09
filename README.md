@@ -24,14 +24,14 @@ Schemat:
 
 Opis wejść i wyjść:
 
-Wejście nośnej (carrier) – GPIO34 (pull-up 10kom do VCC)
-Wejście tonu 1750Hz – GPIO35 (pull-up 10kom do VCC)
-Wyjście PTT – GPIO32 (stan wysoki po zadziałaniu)
-Wyjście dźwięku – GPIO23
-Dioda wskazująca odliczanie czasu – GPIO4 (LED do masy)
-Dioda wskazująca podłączenia do wifi – GPIO2 (LED do masy)
-SDA dla ADS1115 – GPIO21
-SCL dla ADS1115 – GPIO22
+  Wejście nośnej (carrier) – GPIO34 (pull-up 10kom do VCC)
+  Wejście tonu 1750Hz – GPIO35 (pull-up 10kom do VCC)
+  Wyjście PTT – GPIO32 (stan wysoki po zadziałaniu)
+  Wyjście dźwięku – GPIO23
+  Dioda wskazująca odliczanie czasu – GPIO4 (LED do masy)
+  Dioda wskazująca podłączenia do wifi – GPIO2 (LED do masy)
+  SDA dla ADS1115 – GPIO21
+  SCL dla ADS1115 – GPIO22
 
 Wejścia CARRIER i 1750 są podciągnięte do VCC poprzez rezystory 10kom. Zmiana stanu wymaga zwarcia do masy. Na schemacie na dole znajduje się układ z transoptorem CNY17. Z tym układem oddzielamy galwanicznie wyjścia z radia do procesora. Zmienia się wtedy logika, na transoptor (pin 1) podajemy 5V. Wyjście z transoptora z pin 5 podajemy na wejście procesora, tak jak pokazuje strzałka.
 
