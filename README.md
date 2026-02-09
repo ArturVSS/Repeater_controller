@@ -60,9 +60,9 @@ Układ pracuje w trybie pomiaru +/-6.144V. Cztery wejścia analogowe z rezystora
 wejście 1 – pomiar RSSI – napięcie pobierane z odbiornika (patrz informacje niżej)
 wejście 2 – pomiar napięcia SWR – fala padająca
 wejście 3 – pomiar napięcia SWR – fala odbita
-wejście 4 – pomiar napięcia zasilającego cały układ i radiotelefony (z dzielnikiem napięcia 1/4)
+wejście 4 – pomiar napięcia zasilającego cały układ i radiotelefony (z dzielnikiem napięcia 1/4)    
 
-<img width="512" height="466" alt="dzielnik" src="https://github.com/user-attachments/assets/1cfc0ce3-aa36-42f2-8639-63790ed04d9b" />
+    <img width="512" height="466" alt="dzielnik" src="https://github.com/user-attachments/assets/1cfc0ce3-aa36-42f2-8639-63790ed04d9b" />
 
 Poniżej pomiary napięć na wyjściu RSSI w Motoroli GM900 w zależności od poziomu sygnału wejściowego w wartościach skali S w raportach radioamatorskich. Będzie to służyć do wyświetlania poziomu sygnału na WWW a docelowo na informowaniu głosem na przemienniku. Sygnał podawany z analizatora radiokomunikacyjnego Motorola R2600, napięcie mierzone miernikiem SANWA MIER-PC7000. Wartości powinny być zbliżone w innych modelach radiotelefonów Motorola. Sygnał podłączony do wejścia pierwszego ADS1115.
 
@@ -89,9 +89,11 @@ Poniżej 2,5V na stronie WWW pojawia się informacja „no signal”. Jeżeli w 
 // Próg „no signal” dla wejścia 1
 static const float NO_SIGNAL_VOLT = 2.50f;
 
+
 YT: https://youtu.be/HffPlTuqox8
 
 
+  
 
 Moduły wykorzystane w projekcie:
 
