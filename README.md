@@ -1,3 +1,5 @@
+Projekt z strony: https://sp3vss.eu/sterownik-przemiennika/
+
 Platforma: ESP32-WROOM-32
 
 ![dev_kit_pinout-1](https://github.com/user-attachments/assets/e2475e20-813c-4056-b423-607389fa5d9f)
